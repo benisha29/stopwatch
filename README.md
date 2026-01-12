@@ -1,3 +1,36 @@
+# ⏱️ Stopwatch App (React)
+
+A basic stopwatch application developed using **React** and **Tailwind CSS**.  
+This project focuses on understanding React hooks, timers, and conditional rendering.
+
+---
+
+## ✨ Features
+- Start and Stop functionality using a ternary operator
+- Reset button to restart the stopwatch
+- Time tracking with millisecond precision
+- Displays time in `MM : SS : MS` format
+- Built using React Hooks (`useState`, `useEffect`)
+- Simple and clean UI styled with Tailwind CSS
+
+---
+
+## 🧰 Tech Stack
+- React
+- JavaScript (ES6)
+- Tailwind CSS
+
+---
+
+## 🔍 Implementation Details
+- `useState` manages the stopwatch time and running state
+- `useEffect` handles the timer using `setInterval`
+- Time increases by **10ms** while the stopwatch is running
+- Conditional rendering is used to toggle between Start and Stop buttons
+- Reset button sets the timer back to zero
+
+---
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
